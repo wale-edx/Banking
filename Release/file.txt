@@ -1,0 +1,10 @@
+#operationtype,name,nationalid,balance,ammount,Accountid,targetaccountid,feedback
+#
+#operationtype :
+# 0 = > newaccount = > operationtype, name, nationalid, balance
+# 1 = > deposit = > operationtype, Accountid, amount
+# 2 = > withdraw = > operationtype, Accountid, amount
+# 3 = > transfer = > operationtype, Accountid, targetaccountid, amount
+# 4 = > review data / balance = >operationtype, accountid
+# 5 = > deactivate = >operationtype, accountid
+#################################################
